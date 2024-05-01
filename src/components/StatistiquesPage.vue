@@ -2,15 +2,15 @@
   <div class="container-fluid">   
       <!-- ROW 1 -->
       <div class="row">
-          <div class="col bg-dark-subtle">
-              <h5>Statistiques</h5>
-          </div>
+        <div class="col bg-dark-subtle d-flex align-items-center">
+        <h5 class="m-0">Statistiques</h5>
+      </div>
       </div>
       
       <div class="row bg-secondary-subtle">
           <div class="col-1 btn-group btn" role="group" aria-label="Button group with nested dropdown">
               <!-- Bouton Refresh -->
-              <button type="button" class="btn btn-primary m-1">Rafraîchir</button>
+              <button type="button" onclick="window.location.reload();" class="btn btn-primary m-1">Rafraîchir</button>
                
         </div>
       </div>
@@ -210,7 +210,7 @@ $(document).ready(function(){
           var layout_histo = {
               barmode: 'group', 
               height: 400,
-              width: 500, 
+              width: 600, 
               title: 'TITRE 1'
           };
 
@@ -232,7 +232,7 @@ $(document).ready(function(){
           var data_line = [trace1_line, trace2_line];
           var layout_line = {
               height: 400,
-              width: 500,
+              width: 600,
               title: 'TITRE 2'
           };
           Plotly.newPlot('myDiv_line', data_line, layout_line);

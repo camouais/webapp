@@ -1,6 +1,11 @@
 <template>
-    <div>
-      <h1>Page liste des clients </h1>
+    <div class="container-fluid">   
+      <!-- ROW 1 -->
+      <div class="row">
+        <div class="col bg-dark-subtle d-flex align-items-center">
+        <h5 class="m-0">Liste des clients</h5>
+      </div>
+    </div>
     </div>
   </template>
   
