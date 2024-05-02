@@ -5,7 +5,7 @@
     </nav>
 
     <div class="row">
-      <div class="col-2">
+      <div class="col-2 text-center">
        <MenuPage class="mt-4 "></MenuPage>
       </div>
       <div class="col-10">
